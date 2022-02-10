@@ -5,7 +5,7 @@ from math import radians
 
 class MovePolygen():
     def __init__(self):
-	rospy.init_node('GoForward',anonymous=False)
+	rospy.init_node('MovePolygen',anonymous=False)
 	#stop AIBot
 	rospy.loginfo("To stop AIBot CTRL + c")
 
